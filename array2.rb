@@ -4,8 +4,7 @@ puts"ingrese array"
 x=gets.chomp
 puts x
 n=x.length
-w=x.split(" ").to_i
 for i in 0..n-1
-	puts w[i]
+	y= x[i].to_i
+	puts y
 end
-puts y
